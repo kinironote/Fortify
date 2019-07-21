@@ -12,8 +12,7 @@ let package = Package(
   targets: [
     .target(
       name: "Fortify", 
-      dependencies: [], 
-      path: "Sources"
+      dependencies: []
       )
   ]
 )
