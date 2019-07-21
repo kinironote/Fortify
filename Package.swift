@@ -3,6 +3,17 @@ import PackageDescription
 
 let package = Package(
     name: "Fortify",
-    dependencies: [
-    ]
+  products: [
+    .library(name: "Fortify", targets: ["Fortify"])
+  ],
+
+  dependencies: [],
+
+  targets: [
+    .target(
+      name: "Fortify", 
+      dependencies: [], 
+      path: "Sources"
+      )
+  ]
 )
